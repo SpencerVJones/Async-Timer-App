@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="60sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editMinutes"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="2"
+            android:hint="@string/editMins"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:text="@string/colon" />
+
+        <EditText
+            android:id="@+id/editSeconds"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="2"
+            android:hint="@string/editSecs"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonStart"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start_button" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_button" />
+        </LinearLayout>
+</LinearLayout>
