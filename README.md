@@ -1,4 +1,8 @@
 # Async-Timer-App
+  <div align="left">
+	
+  ![Repo Views](https://visitor-badge.laobi.icu/badge?page_id=SpencerVJones/Async-Timer-App)
+</div>
 Android application that implements a countdown timer using an AsyncTask. The user can input minutes and seconds, start the timer, and stop it before it finishes. Upon completion, an alert dialog will notify the user that the timer has expired.
 
 ## How to Use
